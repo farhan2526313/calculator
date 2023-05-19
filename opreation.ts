@@ -1,21 +1,21 @@
 
-let addition = (x: number, y: number): number => {
-    return x + y;
+let addition = (num1: number, num2: number) => {
+    return num1 + num2;
 }
 
-let subtraction = (x: number, y: number): number => {
-    return x - y;
+let subtraction = (num1: number, num2: number) => {
+    return num1 - num2;
 }
 
-let multiplication = (x: number, y: number): number => {
-    return x * y;
+let multiplication = (num1: number, num2: number) => {
+    return num1 * num2;
 }
 
-let division = (x: number, y: number): number => {
-    return x / y;
+let division = (num1: number, num2: number) => {
+    return num1 / num2;
 }
 
-export default (addition ;subtraction ; multiplication ; division);
+export {addition,subtraction,multiplication,division};
 
 
 
